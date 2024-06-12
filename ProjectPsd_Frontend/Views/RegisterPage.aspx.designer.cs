@@ -42,6 +42,15 @@ namespace ProjectPsd_Frontend.Views
         protected global::System.Web.UI.WebControls.TextBox TextBox_Username;
 
         /// <summary>
+        /// RequiredFieldValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+
+        /// <summary>
         /// Label2 control.
         /// </summary>
         /// <remarks>
@@ -60,6 +69,15 @@ namespace ProjectPsd_Frontend.Views
         protected global::System.Web.UI.WebControls.TextBox TextBox_Email;
 
         /// <summary>
+        /// RequiredFieldValidator2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+
+        /// <summary>
         /// Label3 control.
         /// </summary>
         /// <remarks>
@@ -69,22 +87,22 @@ namespace ProjectPsd_Frontend.Views
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// CheckBox_Male control.
+        /// RadioButton_Male control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox_Male;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton_Male;
 
         /// <summary>
-        /// CheckBox_Female control.
+        /// RadioButton_Female control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox_Female;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton_Female;
 
         /// <summary>
         /// Label4 control.
@@ -105,6 +123,15 @@ namespace ProjectPsd_Frontend.Views
         protected global::System.Web.UI.WebControls.TextBox TextBox_Password;
 
         /// <summary>
+        /// RequiredFieldValidator4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
+
+        /// <summary>
         /// Label5 control.
         /// </summary>
         /// <remarks>
@@ -123,6 +150,15 @@ namespace ProjectPsd_Frontend.Views
         protected global::System.Web.UI.WebControls.TextBox TextBox_Confirmation;
 
         /// <summary>
+        /// CompareValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
+
+        /// <summary>
         /// Label6 control.
         /// </summary>
         /// <remarks>
@@ -139,6 +175,15 @@ namespace ProjectPsd_Frontend.Views
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Calendar Calendar_dob;
+
+        /// <summary>
+        /// ErrorMessageLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ErrorMessageLabel;
 
         /// <summary>
         /// Button1 control.

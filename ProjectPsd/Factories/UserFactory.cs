@@ -13,14 +13,13 @@ namespace ProjectPsd.Factories
         {
             User newUser = new User()
             {
-                UserID = DatabaseSingleton.GetNextId(),
                 Username = username,
                 UserEmail = email,
+                UserDOB = birth,
                 UserGender = gender,
-                UserPassword = password,
-                UserDOB = birth.Date,
-                UserRole = "Customer"
-
+                UserRole = "Customer",
+                UserPassword = password
+                
             };
             return newUser;
         }
