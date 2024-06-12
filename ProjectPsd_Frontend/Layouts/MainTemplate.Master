@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainTemplate.master.cs" Inherits="ProjectPsd_Frontend.Layouts.MainTemplate" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div>
+                <asp:Button ID="Button1" runat="server" Text="Order Makeup" OnClick="Button1_Click" />
+                <asp:Button ID="Button2" runat="server" Text="History" OnClick="Button2_Click" />
+                <asp:Button ID="Button3" runat="server" Text="Profile" OnClick="Button3_Click" />
+                <asp:Button ID="Button4" runat="server" Text="Logout" />
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
