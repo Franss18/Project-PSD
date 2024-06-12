@@ -43,7 +43,7 @@
             <asp:TextBox ID="Tb_Password" runat="server"></asp:TextBox>
         </div>
         <div>
-        <asp:CheckBox ID="rememberMe" runat="server" />
+        <asp:CheckBox ID="rememberMe" runat="server" Text="Remember Me" />
         </div>
         <asp:Button ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" />
         <asp:LinkButton ID="LinkButton_Register" runat="server" OnClick="LinkButton_Register_Click">Register</asp:LinkButton>
