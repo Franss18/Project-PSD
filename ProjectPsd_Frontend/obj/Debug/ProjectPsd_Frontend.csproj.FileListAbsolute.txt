@@ -63,3 +63,7 @@ D:\Documents\Kuliah\Sem 4\Pattern Lab\ProjectPsd\ProjectPsd_Frontend\bin\Microso
 D:\Documents\Kuliah\Sem 4\Pattern Lab\ProjectPsd\ProjectPsd_Frontend\obj\Debug\ProjectP.48F88659.Up2Date
 D:\Documents\Kuliah\Sem 4\Pattern Lab\ProjectPsd\ProjectPsd_Frontend\obj\Debug\ProjectPsd_Frontend.dll
 D:\Documents\Kuliah\Sem 4\Pattern Lab\ProjectPsd\ProjectPsd_Frontend\obj\Debug\ProjectPsd_Frontend.pdb
+D:\Documents\Kuliah\Sem 4\Pattern Lab\New folder\Lab-PSD-final\ProjectPsd_Frontend\obj\Debug\ProjectPsd_Frontend.csproj.AssemblyReference.cache
+D:\Documents\Kuliah\Sem 4\Pattern Lab\New folder\Lab-PSD-final\ProjectPsd_Frontend\obj\Debug\ProjectPsd_Frontend.csproj.CoreCompileInputs.cache
+D:\Documents\Kuliah\Sem 4\Pattern Lab\New folder\Lab-PSD-final\ProjectPsd_Frontend\obj\Debug\ProjectPsd_Frontend.dll
+D:\Documents\Kuliah\Sem 4\Pattern Lab\New folder\Lab-PSD-final\ProjectPsd_Frontend\obj\Debug\ProjectPsd_Frontend.pdb

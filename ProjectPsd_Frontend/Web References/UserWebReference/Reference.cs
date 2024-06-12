@@ -33,6 +33,8 @@ namespace ProjectPsd_Frontend.UserWebReference {
         
         private System.Threading.SendOrPostCallback InsertUserOperationCompleted;
         
+        private System.Threading.SendOrPostCallback ValidateUserOperationCompleted;
+        
         private bool useDefaultCredentialsSetExplicitly;
         
         /// <remarks/>
@@ -76,6 +78,9 @@ namespace ProjectPsd_Frontend.UserWebReference {
         
         /// <remarks/>
         public event InsertUserCompletedEventHandler InsertUserCompleted;
+        
+        /// <remarks/>
+        public event ValidateUserCompletedEventHandler ValidateUserCompleted;
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/GetAllUsers", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
@@ -142,6 +147,37 @@ namespace ProjectPsd_Frontend.UserWebReference {
         }
         
         /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/ValidateUser", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public string ValidateUser(string username, string password) {
+            object[] results = this.Invoke("ValidateUser", new object[] {
+                        username,
+                        password});
+            return ((string)(results[0]));
+        }
+        
+        /// <remarks/>
+        public void ValidateUserAsync(string username, string password) {
+            this.ValidateUserAsync(username, password, null);
+        }
+        
+        /// <remarks/>
+        public void ValidateUserAsync(string username, string password, object userState) {
+            if ((this.ValidateUserOperationCompleted == null)) {
+                this.ValidateUserOperationCompleted = new System.Threading.SendOrPostCallback(this.OnValidateUserOperationCompleted);
+            }
+            this.InvokeAsync("ValidateUser", new object[] {
+                        username,
+                        password}, this.ValidateUserOperationCompleted, userState);
+        }
+        
+        private void OnValidateUserOperationCompleted(object arg) {
+            if ((this.ValidateUserCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.ValidateUserCompleted(this, new ValidateUserCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
         public new void CancelAsync(object userState) {
             base.CancelAsync(userState);
         }
@@ -199,6 +235,32 @@ namespace ProjectPsd_Frontend.UserWebReference {
         private object[] results;
         
         internal InsertUserCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public string Result {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((string)(this.results[0]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
+    public delegate void ValidateUserCompletedEventHandler(object sender, ValidateUserCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9032.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class ValidateUserCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal ValidateUserCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
                 base(exception, cancelled, userState) {
             this.results = results;
         }

@@ -106,10 +106,10 @@
     <Content Include="Views\OrderMakeupPage.aspx" />
     <Content Include="Views\ProfilePage.aspx" />
     <Content Include="Views\RegisterPage.aspx" />
-    <Content Include="Web References\UserWebReference\Reference.map">
+    <None Include="Web References\UserWebReference\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
-    </Content>
+    </None>
     <None Include="Web References\UserWebReference\UserWebService.disco" />
     <Content Include="Web.config" />
     <None Include="Web References\UserWebReference\UserWebService.wsdl" />
