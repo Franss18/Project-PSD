@@ -5,6 +5,32 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style>
+        .error { color: red; }
+    </style>
+    <script type="text/javascript">
+        function validateForm() {
+            let valid = true;
+
+            let username = document.getElementById('<%= Tb_Username.ClientID %>').value;
+            if (username.trim() === "") {
+                document.getElementById('usernameError').innerText = 'Username cannot be empty.';
+                valid = false;
+            } else {
+                document.getElementById('usernameError').innerText = '';
+            }
+
+            let password = document.getElementById('<%= Tb_Password.ClientID %>').value;
+            if (password.trim() === "") {
+                document.getElementById('passwordError').innerText = 'Password cannot be empty.';
+                valid = false;
+            } else {
+                document.getElementById('passwordError').innerText = '';
+            }
+
+            return valid;
+        }
+    </script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -20,6 +46,7 @@
         <asp:CheckBox ID="rememberMe" runat="server" />
         </div>
         <asp:Button ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" />
+        <asp:LinkButton ID="LinkButton_Register" runat="server" OnClick="LinkButton_Register_Click">Register</asp:LinkButton>
     </form>
 </body>
 </html>

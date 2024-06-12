@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\",
+  "WorkspaceRootPath": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|d:\\documents\\kuliah\\sem 4\\pattern lab\\projectpsd\\projectpsd_frontend\\views\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|solutionrelative:projectpsd_frontend\\views\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|d:\\documents\\kuliah\\sem 4\\pattern lab\\projectpsd\\projectpsd_frontend\\views\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|solutionrelative:projectpsd_frontend\\views\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\projectpsd_frontend\\views\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|solutionrelative:projectpsd_frontend\\views\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\projectpsd_frontend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\projectpsd_frontend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|solutionrelative:projectpsd_frontend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\projectpsd_frontend\\views\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\projectpsd_frontend\\views\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|solutionrelative:projectpsd_frontend\\views\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\projectpsd_frontend\\views\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|solutionrelative:projectpsd_frontend\\views\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDEBD8B-F5FB-4947-AE1D-EBFFB23DDADF}|ProjectPsd\\ProjectPsd_Backend.csproj|d:\\documents\\kuliah\\sem 4\\pattern lab\\new folder\\lab-psd-final\\projectpsd\\handlers\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EDEBD8B-F5FB-4947-AE1D-EBFFB23DDADF}|ProjectPsd\\ProjectPsd_Backend.csproj|solutionrelative:projectpsd\\handlers\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDEBD8B-F5FB-4947-AE1D-EBFFB23DDADF}|ProjectPsd\\ProjectPsd_Backend.csproj|d:\\documents\\kuliah\\sem 4\\pattern lab\\new folder\\lab-psd-final\\projectpsd\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EDEBD8B-F5FB-4947-AE1D-EBFFB23DDADF}|ProjectPsd\\ProjectPsd_Backend.csproj|solutionrelative:projectpsd\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|d:\\documents\\kuliah\\sem 4\\pattern lab\\new folder\\lab-psd-final\\projectpsd_frontend\\views\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|solutionrelative:projectpsd_frontend\\views\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EDEBD8B-F5FB-4947-AE1D-EBFFB23DDADF}|ProjectPsd\\ProjectPsd_Backend.csproj|D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\projectpsd\\webservices\\userwebservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EDEBD8B-F5FB-4947-AE1D-EBFFB23DDADF}|ProjectPsd\\ProjectPsd_Backend.csproj|solutionrelative:projectpsd\\webservices\\userwebservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EDEBD8B-F5FB-4947-AE1D-EBFFB23DDADF}|ProjectPsd\\ProjectPsd.csproj|D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\projectpsd\\modules\\json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EDEBD8B-F5FB-4947-AE1D-EBFFB23DDADF}|ProjectPsd\\ProjectPsd.csproj|solutionrelative:projectpsd\\modules\\json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|d:\\documents\\kuliah\\sem 4\\pattern lab\\new folder\\lab-psd-final\\projectpsd_frontend\\views\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0AF75A-6873-4A56-87A4-4E1F49FB71E8}|ProjectPsd_Frontend\\ProjectPsd_Frontend.csproj|solutionrelative:projectpsd_frontend\\views\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,96 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "LoginPage.aspx",
+              "DocumentMoniker": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\ProjectPsd_Frontend\\Views\\LoginPage.aspx",
+              "RelativeDocumentMoniker": "ProjectPsd_Frontend\\Views\\LoginPage.aspx",
+              "ToolTip": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\ProjectPsd_Frontend\\Views\\LoginPage.aspx",
+              "RelativeToolTip": "ProjectPsd_Frontend\\Views\\LoginPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-12T10:42:01.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\ProjectPsd\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ProjectPsd\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\ProjectPsd\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ProjectPsd\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwCIAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T10:38:41.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserHandler.cs",
+              "DocumentMoniker": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\ProjectPsd\\Handlers\\UserHandler.cs",
+              "RelativeDocumentMoniker": "ProjectPsd\\Handlers\\UserHandler.cs",
+              "ToolTip": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\ProjectPsd\\Handlers\\UserHandler.cs",
+              "RelativeToolTip": "ProjectPsd\\Handlers\\UserHandler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T10:35:11.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RegisterPage.aspx.cs",
-              "DocumentMoniker": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\ProjectPsd_Frontend\\Views\\RegisterPage.aspx.cs",
+              "DocumentMoniker": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\ProjectPsd_Frontend\\Views\\RegisterPage.aspx.cs",
               "RelativeDocumentMoniker": "ProjectPsd_Frontend\\Views\\RegisterPage.aspx.cs",
-              "ToolTip": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\ProjectPsd_Frontend\\Views\\RegisterPage.aspx.cs",
+              "ToolTip": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\ProjectPsd_Frontend\\Views\\RegisterPage.aspx.cs",
               "RelativeToolTip": "ProjectPsd_Frontend\\Views\\RegisterPage.aspx.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAgwF8AAAAJAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAhwFkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T09:38:14.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterPage.aspx",
-              "DocumentMoniker": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\ProjectPsd_Frontend\\Views\\RegisterPage.aspx",
-              "RelativeDocumentMoniker": "ProjectPsd_Frontend\\Views\\RegisterPage.aspx",
-              "ToolTip": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\ProjectPsd_Frontend\\Views\\RegisterPage.aspx",
-              "RelativeToolTip": "ProjectPsd_Frontend\\Views\\RegisterPage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-12T09:10:39.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\ProjectPsd_Frontend\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\ProjectPsd_Frontend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ProjectPsd_Frontend\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\ProjectPsd_Frontend\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\ProjectPsd_Frontend\\Controllers\\UserController.cs",
               "RelativeToolTip": "ProjectPsd_Frontend\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T09:07:06.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LoginPage.aspx.cs",
-              "DocumentMoniker": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\ProjectPsd_Frontend\\Views\\LoginPage.aspx.cs",
+              "DocumentMoniker": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\ProjectPsd_Frontend\\Views\\LoginPage.aspx.cs",
               "RelativeDocumentMoniker": "ProjectPsd_Frontend\\Views\\LoginPage.aspx.cs",
-              "ToolTip": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\ProjectPsd_Frontend\\Views\\LoginPage.aspx.cs",
+              "ToolTip": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\ProjectPsd_Frontend\\Views\\LoginPage.aspx.cs",
               "RelativeToolTip": "ProjectPsd_Frontend\\Views\\LoginPage.aspx.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAApwBgAAAAtAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAA3wDcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T09:02:42.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginPage.aspx",
-              "DocumentMoniker": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\ProjectPsd_Frontend\\Views\\LoginPage.aspx",
-              "RelativeDocumentMoniker": "ProjectPsd_Frontend\\Views\\LoginPage.aspx",
-              "ToolTip": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\ProjectPsd_Frontend\\Views\\LoginPage.aspx",
-              "RelativeToolTip": "ProjectPsd_Frontend\\Views\\LoginPage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "DocumentIndex": 2,
+              "Title": "RegisterPage.aspx",
+              "DocumentMoniker": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\ProjectPsd_Frontend\\Views\\RegisterPage.aspx",
+              "RelativeDocumentMoniker": "ProjectPsd_Frontend\\Views\\RegisterPage.aspx",
+              "ToolTip": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\New folder\\Lab-PSD-final\\ProjectPsd_Frontend\\Views\\RegisterPage.aspx",
+              "RelativeToolTip": "ProjectPsd_Frontend\\Views\\RegisterPage.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-12T08:59:11.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Json.cs",
-              "DocumentMoniker": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\ProjectPsd\\Modules\\Json.cs",
-              "RelativeDocumentMoniker": "ProjectPsd\\Modules\\Json.cs",
-              "ToolTip": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\ProjectPsd\\Modules\\Json.cs",
-              "RelativeToolTip": "ProjectPsd\\Modules\\Json.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T15:37:03.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserWebService.asmx.cs",
-              "DocumentMoniker": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\ProjectPsd\\Webservices\\UserWebService.asmx.cs",
-              "RelativeDocumentMoniker": "ProjectPsd\\Webservices\\UserWebService.asmx.cs",
-              "ToolTip": "D:\\Documents\\Kuliah\\Sem 4\\Pattern Lab\\ProjectPsd\\ProjectPsd\\Webservices\\UserWebService.asmx.cs",
-              "RelativeToolTip": "ProjectPsd\\Webservices\\UserWebService.asmx.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAACQAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T15:35:16.93Z",
+              "WhenOpened": "2024-06-12T09:10:39.454Z",
               "EditorCaption": ""
             }
           ]

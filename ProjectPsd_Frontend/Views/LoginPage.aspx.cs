@@ -1,4 +1,5 @@
-﻿using ProjectPsd_Frontend.Models;
+﻿using ProjectPsd_Frontend.Controllers;
+using ProjectPsd_Frontend.Models;
 using ProjectPsd_Frontend.UserWebReference;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,13 @@ namespace ProjectPsd_Frontend.Views
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack && Request.Cookies["RememberMe"] != null)
+            {
+                HttpCookie cookie = Request.Cookies["RememberMe"];
+                Tb_Username.Text = cookie.Values["Username"];
+                Tb_Password.Attributes["value"] = cookie.Values["Password"];
+                rememberMe.Checked = true;
+            }
 
         }
 
@@ -22,7 +30,41 @@ namespace ProjectPsd_Frontend.Views
             string username = Tb_Username.Text;
             string password = Tb_Password.Text;
 
-            User user = ws.GetAllUsers.Where(u => u.Username == username)
+            bool isValidUser = UserController.ValidateUser(username, password);
+
+            if (isValidUser)
+            {
+                if (rememberMe.Checked)
+                {
+                    HttpCookie cookie = new HttpCookie("RememberMe");
+                    cookie.Values["Username"] = username;
+                    cookie.Values["Password"] = password;
+                    cookie.Expires = DateTime.Now.AddDays(7);
+                    Response.Cookies.Add(cookie);
+                }
+                else
+                {
+                    if (Request.Cookies["RememberMe"] != null)
+                    {
+                        HttpCookie cookie = new HttpCookie("RememberMe");
+                        cookie.Expires = DateTime.Now.AddDays(-1);
+                        Response.Cookies.Add(cookie);
+                    }
+                }
+
+                Response.Redirect("HomePage.aspx");
+            }
+            else
+            {
+                
+            }
+
+
+        }
+
+        protected void LinkButton_Register_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("RegisterPage.aspx");
         }
     }
 }

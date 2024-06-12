@@ -25,5 +25,13 @@ namespace ProjectPsd_Frontend.Controllers
             return Json.Decode<bool>(json);
 
         }
+
+        public static bool ValidateUser(string username, string password)
+        {
+            UserWebService ws = new UserWebService();
+            string json = ws.ValidateUser(username, password);
+            return Json.Decode<bool>(json);
+
+        }
     }
 }

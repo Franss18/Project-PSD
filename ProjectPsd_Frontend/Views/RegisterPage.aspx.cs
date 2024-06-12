@@ -21,6 +21,7 @@ namespace ProjectPsd_Frontend.Views
             string email = TextBox_Email.Text;
             string gender = GetSelectedGender();
             string password = TextBox_Password.Text;
+            string confirmPassword = TextBox_Confirmation.Text;
             DateTime birth = Calendar_dob.SelectedDate;
 
             if (!IsValidInput(username, email, gender, password, confirmPassword, birth))
@@ -32,8 +33,7 @@ namespace ProjectPsd_Frontend.Views
 
             if (isSuccess)
             {
-                UserController.AssignRole(username, "customer");
-                Response.Redirect("HomePage.aspx");
+                Response.Redirect("LoginPage.aspx");
             }
         }
 
@@ -57,42 +57,37 @@ namespace ProjectPsd_Frontend.Views
         {
             bool isValid = true;
 
-            // Username validation
             if (username.Length < 5 || username.Length > 15)
             {
                 isValid = false;
-                // Display error message
             }
 
-            // Email validation
             if (!email.EndsWith(".com"))
             {
                 isValid = false;
-                // Display error message
             }
 
-            // Gender validation
             if (string.IsNullOrEmpty(gender))
             {
                 isValid = false;
-                // Display error message
             }
 
-            // Password validation
             if (password != confirmPassword || string.IsNullOrEmpty(password))
             {
                 isValid = false;
-                // Display error message
             }
 
-            // Date of Birth validation
             if (birth == DateTime.MinValue)
             {
                 isValid = false;
-                // Display error message
             }
 
             return isValid;
+        }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LoginPage.aspx");
         }
     }
 }
