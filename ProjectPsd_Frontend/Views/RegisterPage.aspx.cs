@@ -60,28 +60,40 @@ namespace ProjectPsd_Frontend.Views
             if (username.Length < 5 || username.Length > 15)
             {
                 isValid = false;
+                validasi.Text = "Username error";
+                validasi.ForeColor = System.Drawing.Color.Red;
             }
 
             if (!email.EndsWith(".com"))
             {
                 isValid = false;
+                validasi.Text = "Email error";
+                validasi.ForeColor = System.Drawing.Color.Red;
             }
 
             if (string.IsNullOrEmpty(gender))
             {
                 isValid = false;
+                validasi.Text = "gender error";
+                validasi.ForeColor = System.Drawing.Color.Red;
             }
 
             if (password != confirmPassword || string.IsNullOrEmpty(password))
             {
                 isValid = false;
+                validasi.Text = "pass error";
+                validasi.ForeColor = System.Drawing.Color.Red;
             }
 
-            if (birth == DateTime.MinValue)
+            if (birth == null)
             {
                 isValid = false;
+                validasi.Text = "DOB error";
+                validasi.ForeColor = System.Drawing.Color.Red;
             }
 
+            validasi.Text = "aman";
+            validasi.ForeColor = System.Drawing.Color.Green;
             return isValid;
         }
 

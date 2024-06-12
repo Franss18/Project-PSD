@@ -101,6 +101,9 @@
         </div>
         <asp:Button ID="Button1" runat="server" Text="Register" OnClick="Button1_Click" />
         <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Login</asp:LinkButton>
+        
+        <asp:Label ID="validasi" runat="server" Text=""></asp:Label>
+
     </form>
 </body>
 </html>
