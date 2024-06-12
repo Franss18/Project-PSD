@@ -32,5 +32,15 @@ namespace ProjectPsd_Frontend.Properties {
                 return ((string)(this["ProjectPsd_Frontend_UserWebReference_UserWebService"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://localhost:44347/Webservices/ItemWebService.asmx")]
+        public string ProjectPsd_Frontend_localhost_ItemWebService {
+            get {
+                return ((string)(this["ProjectPsd_Frontend_localhost_ItemWebService"]));
+            }
+        }
     }
 }

@@ -45,6 +45,55 @@ D:\Documents\Kuliah\Sem 4\Pattern Lab\New folder\Lab-PSD-final\ProjectPsd\obj\De
 D:\Documents\Kuliah\Sem 4\Pattern Lab\New folder\Lab-PSD-final\ProjectPsd\obj\Debug\ProjectPsd.csproj.Up2Date
 D:\Documents\Kuliah\Sem 4\Pattern Lab\New folder\Lab-PSD-final\ProjectPsd\obj\Debug\ProjectPsd.dll
 D:\Documents\Kuliah\Sem 4\Pattern Lab\New folder\Lab-PSD-final\ProjectPsd\obj\Debug\ProjectPsd.pdb
+<<<<<<< HEAD
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\ProjectPsd.dll.config
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\ProjectPsd.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\ProjectPsd.pdb
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\csc.exe
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\csc.exe.config
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\csc.rsp
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\csi.exe
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\csi.exe.config
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\csi.rsp
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\System.Buffers.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\System.Memory.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\vbc.exe
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\vbc.exe.config
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\vbc.rsp
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\VBCSCompiler.exe
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\EntityFramework.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\EntityFramework.SqlServer.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\Newtonsoft.Json.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\EntityFramework.xml
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\EntityFramework.SqlServer.xml
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\bin\Newtonsoft.Json.xml
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\obj\Debug\ProjectPsd.csproj.AssemblyReference.cache
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\obj\Debug\ProjectPsd.csproj.CoreCompileInputs.cache
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\obj\Debug\ProjectPsd.csproj.Up2Date
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\obj\Debug\ProjectPsd.dll
+C:\Users\vinse\Documents\Tugas\PSD\Project-PSD\ProjectPsd\obj\Debug\ProjectPsd.pdb
+=======
 D:\Documents\Kuliah\Sem 4\Pattern Lab\LabFinal\Project-PSD\ProjectPsd\bin\ProjectPsd.dll.config
 D:\Documents\Kuliah\Sem 4\Pattern Lab\LabFinal\Project-PSD\ProjectPsd\bin\ProjectPsd.dll
 D:\Documents\Kuliah\Sem 4\Pattern Lab\LabFinal\Project-PSD\ProjectPsd\bin\ProjectPsd.pdb
@@ -92,3 +141,4 @@ D:\Documents\Kuliah\Sem 4\Pattern Lab\LabFinal\Project-PSD\ProjectPsd\obj\Debug\
 D:\Documents\Kuliah\Sem 4\Pattern Lab\LabFinal\Project-PSD\ProjectPsd\obj\Debug\ProjectPsd.csproj.Up2Date
 D:\Documents\Kuliah\Sem 4\Pattern Lab\LabFinal\Project-PSD\ProjectPsd\obj\Debug\ProjectPsd.dll
 D:\Documents\Kuliah\Sem 4\Pattern Lab\LabFinal\Project-PSD\ProjectPsd\obj\Debug\ProjectPsd.pdb
+>>>>>>> f0200b379cb1f2123ebbec2daeb95cb98973bc79
