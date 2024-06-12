@@ -1,4 +1,5 @@
 ﻿using ProjectPsd.Models;
+using ProjectPsd.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,11 +13,12 @@ namespace ProjectPsd.Factories
         {
             User newUser = new User()
             {
+                UserID = DatabaseSingleton.GetNextId(),
                 Username = username,
                 UserEmail = email,
                 UserGender = gender,
                 UserPassword = password,
-                UserDOB = birth,
+                UserDOB = birth.Date,
                 UserRole = "Customer"
 
             };

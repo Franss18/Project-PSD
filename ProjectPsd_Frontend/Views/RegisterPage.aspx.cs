@@ -22,11 +22,13 @@ namespace ProjectPsd_Frontend.Views
             string gender = GetSelectedGender();
             string password = TextBox_Password.Text;
             string confirmPassword = TextBox_Confirmation.Text;
-            DateTime birth = Calendar_dob.SelectedDate;
+            DateTime birth = Calendar_dob.SelectedDate.Date;
+
+            
 
             if (!IsValidInput(username, email, gender, password, confirmPassword, birth))
             {
-                return;
+                return ;
             }
 
             bool isSuccess = UserController.InsertUser(username, email, gender, password, birth);
