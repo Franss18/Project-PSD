@@ -55,9 +55,6 @@ namespace ProjectPsd_Frontend.Views
                 return string.Empty;
             }
         }
-
-<<<<<<< HEAD
-=======
         private bool IsValidInput(string username, string email, string gender, string password, string confirmPassword, DateTime birth)
         {
             bool isValid = true;
@@ -102,7 +99,6 @@ namespace ProjectPsd_Frontend.Views
             return isValid;
         }
 
->>>>>>> dc79af38424fc7d7e909bfd316b97389c26c7fd3
         protected void LinkButton1_Click(object sender, EventArgs e)
         {
             Response.Redirect("LoginPage.aspx");
