@@ -35,12 +35,12 @@ namespace ProjectPsd_Frontend.Views
             if (Session["user"] != null)
             {
                 DatabaseEntities db = new DatabaseEntities();
-                //string username;
-                //string role;
-                User user = db.Users.Where(u => u.Username == u.Username && u.UserRole == u.UserRole).FirstOrDefault();
+                string username;
+                string role;
+                User user = db.Users.Where(u => u.Username == username && u.UserRole == role).FirstOrDefault();
                 LblUserInfo.Text = $"Welcome, {user.UserID}. Your role is {user.UserRole}.";
 
-                if (user.UserRole == "Admin")
+                if (role == "Admin")
                 {
                     List<User> users = UserController.GetAllUsers();
                     GridView1.DataSource = users;
