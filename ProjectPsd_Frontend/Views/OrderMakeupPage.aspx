@@ -13,16 +13,25 @@
     
     <hr />
     <h1>Items</h1>
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+    <asp:GridView ID="GridView" runat="server" AutoGenerateColumns="False" >
     <Columns>
         <asp:BoundField DataField="MakeupName" HeaderText="MakeupName" SortExpression="MakeupName" />
         <asp:BoundField DataField="MakeupPrice" HeaderText="MakeupPrice" SortExpression="MakeupPrice" />
         <asp:BoundField DataField="MakeupWeight" HeaderText="MakeupWeight" SortExpression="MakeupWeight" />
-        <asp:BoundField DataField="MakeupTypeID" HeaderText="Type" SortExpression="MakeupTypeName" />
-        <asp:BoundField DataField="MakeupBrandID" HeaderText="Brand" SortExpression="MakeupBrandName" />
-        <asp:ButtonField ButtonType="Button" CommandName="Select" Text="BUY" />
+        <asp:BoundField DataField="MakeupType" HeaderText="MakeupType" SortExpression="MakeupType" />
+        <asp:BoundField DataField="MakeupBrand" HeaderText="MakeupBrand" SortExpression="MakeupBrand" />
     </Columns>
 </asp:GridView>
+    
+    <asp:GridView ID="GridView3" runat="server" AutoGenerateColumns="False" >
+        <Columns>
+            <asp:BoundField DataField="MakeupName" HeaderText="MakeupName" SortExpression="MakeupName" />
+            <asp:BoundField DataField="MakeupPrice" HeaderText="MakeupPrice" SortExpression="MakeupPrice" />
+            <asp:BoundField DataField="MakeupWeight" HeaderText="MakeupWeight" SortExpression="MakeupWeight" />
+            <asp:BoundField DataField="MakeupType" HeaderText="MakeupType" SortExpression="MakeupType" />
+            <asp:BoundField DataField="MakeupBrand" HeaderText="MakeupBrand" SortExpression="MakeupBrand" />
+        </Columns>
+    </asp:GridView>
     <div>
         <asp:TextBox ID="quantity" runat="server" placeholder="Quantity"></asp:TextBox>
     </div>

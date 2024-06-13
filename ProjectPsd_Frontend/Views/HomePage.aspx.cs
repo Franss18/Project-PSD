@@ -35,8 +35,8 @@ namespace ProjectPsd_Frontend.Views
             if (Session["user"] != null)
             {
                 DatabaseEntities db = new DatabaseEntities();
-                string username;
-                string role;
+                string username = ""; //temp
+                string role = ""; //temp
                 User user = db.Users.Where(u => u.Username == username && u.UserRole == role).FirstOrDefault();
                 LblUserInfo.Text = $"Welcome, {user.UserID}. Your role is {user.UserRole}.";
 
