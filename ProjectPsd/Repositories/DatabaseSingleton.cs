@@ -12,11 +12,7 @@ namespace ProjectPsd.Repositories
 
         public static DatabaseEntities GetSingleton()
         {
-            if (db == null)
-            {
-                db = new DatabaseEntities();
-            }
-            return db;
+            return new DatabaseEntities();
         }
     }
 }

@@ -13,10 +13,40 @@ namespace ProjectPsd_Frontend.Views
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //Untuk role admin
-            //List<User> users = UserController.GetAllUsers();
-            //GridView1.DataSource = users;
-            //GridView1.DataBind();
+            if (Session["user"] == null && Request.Cookies["user_cookie"] == null)
+            {
+                Response.Redirect("~/Views/LoginPage.aspx");
+            }
+
+            if (Request.Cookies["user_cookie"] != null)
+            {
+                DatabaseEntities db = new DatabaseEntities();
+                var userId = Request.Cookies["user_cookie"].Value;
+                User user = db.Users.Where(u => u.Username == userId).FirstOrDefault();
+
+                if (user == null)
+                {
+                    Response.Redirect("~/Views/LoginPage.aspx");
+                }
+
+                Session["user"] = user;
+            }
+
+            if (Session["user"] != null)
+            {
+                DatabaseEntities db = new DatabaseEntities();
+                string username;
+                string role;
+                User user = db.Users.Where(u => u.Username == username && u.UserRole == role).FirstOrDefault();
+                LblUserInfo.Text = $"Welcome, {user.UserID}. Your role is {user.UserRole}.";
+
+                if (role == "Admin")
+                {
+                    List<User> users = UserController.GetAllUsers();
+                    GridView1.DataSource = users;
+                    GridView1.DataBind();
+                }
+            }
         }
     }
 }

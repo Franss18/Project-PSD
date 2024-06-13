@@ -14,52 +14,32 @@ namespace ProjectPsd_Frontend.Views
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack && Request.Cookies["RememberMe"] != null)
+            if (Session["user"] != null || Request.Cookies["user_cookie"] != null)
             {
-                HttpCookie cookie = Request.Cookies["RememberMe"];
-                Tb_Username.Text = cookie.Values["Username"];
-                Tb_Password.Attributes["value"] = cookie.Values["Password"];
-                rememberMe.Checked = true;
+                Response.Redirect("~/Views/HomePage.aspx");
             }
 
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            UserWebService ws = new UserWebService();
+            DatabaseEntities db = new DatabaseEntities();
             string username = Tb_Username.Text;
             string password = Tb_Password.Text;
+            Boolean isRememberMe = rememberMe.Checked;
 
-            bool isValidUser = UserController.ValidateUser(username, password);
+            User user = db.Users.Where(u => u.Username == username && u.UserPassword == password).FirstOrDefault();
 
-            if (isValidUser)
+            if (isRememberMe)
             {
-                if (rememberMe.Checked)
-                {
-                    HttpCookie cookie = new HttpCookie("RememberMe");
-                    cookie.Values["Username"] = username;
-                    cookie.Values["Password"] = password;
-                    cookie.Expires = DateTime.Now.AddDays(7);
-                    Response.Cookies.Add(cookie);
-                }
-                else
-                {
-                    if (Request.Cookies["RememberMe"] != null)
-                    {
-                        HttpCookie cookie = new HttpCookie("RememberMe");
-                        cookie.Expires = DateTime.Now.AddDays(-1);
-                        Response.Cookies.Add(cookie);
-                    }
-                }
+                HttpCookie cookie = Request.Cookies["user_cookie"];
+                Tb_Username.Text = cookie.Values["Username"];
+                cookie.Expires = DateTime.Now.AddHours(1);
 
-                Response.Redirect("HomePage.aspx");
             }
-            else
-            {
-                
-            }
-
-
+            
+            Session["user"] = user;
+            Response.Redirect("HomePage.aspx");
         }
 
         protected void LinkButton_Register_Click(object sender, EventArgs e)

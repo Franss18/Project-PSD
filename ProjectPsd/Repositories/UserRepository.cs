@@ -1,6 +1,7 @@
 ﻿using ProjectPsd.Models;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 
@@ -26,8 +27,11 @@ namespace ProjectPsd.Repositories
         public static void InsertUser(User user)
         {
             DatabaseEntities db = DatabaseSingleton.GetSingleton();
-            db.Users.Add(user);
-            db.SaveChanges();
+
+                db.Users.Add(user);
+                Debug.WriteLine("User added to context.");
+                db.SaveChanges();
+                Debug.WriteLine("SaveChanges called successfully.");
         }
 
         public static bool ValidateUser(string username, string password)

@@ -1,4 +1,5 @@
 ﻿using ProjectPsd.Models;
+using ProjectPsd.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,11 +15,11 @@ namespace ProjectPsd.Factories
             {
                 Username = username,
                 UserEmail = email,
-                UserGender = gender,
-                UserPassword = password,
                 UserDOB = birth,
-                UserRole = "Customer"
-
+                UserGender = gender,
+                UserRole = "Customer",
+                UserPassword = password
+                
             };
             return newUser;
         }
