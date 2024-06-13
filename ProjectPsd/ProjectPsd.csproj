@@ -96,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Factories\UserFactory.cs" />
+    <Compile Include="Handlers\CartHandler.cs" />
     <Compile Include="Handlers\ItemsHandler.cs" />
     <Compile Include="Handlers\UserHandler.cs" />
     <Compile Include="Models\Cart.cs">
